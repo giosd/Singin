@@ -1,0 +1,27 @@
+
+POST http://localhost:3000/createUser 
+Content-Type: application/json
+
+{
+"nome":"Gio11", 
+"email":"gileite1799679@gmail.com",
+"senha":"12345",
+"telefones":[{"ddd":11,"numero":123123}]
+}
+###
+
+POST http://localhost:3000/auth 
+Content-Type: application/json
+
+{
+"email":"gileite1799679@gmail.com", 
+"senha":"12345"
+}
+
+### 
+GET http://localhost:3000/user/5f9b7579d5ead732d010dad0
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNTFjNDliNjY1OThjMDJmNDRkZWRhZiIsImlhdCI6MTU5OTE5NDI2NywiZXhwIjoxNTk5MjgwNjY3fQ.4ZPjMfjW6vTyQVXk9abZZGX2sFa5LeJlLRE2ccOFGtQ
+
+
+
