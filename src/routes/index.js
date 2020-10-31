@@ -9,7 +9,7 @@ router.get('/', function(req, res) {
   router.post('/createUser', userController.create)
 
   /**
-* @api {post} router.post('/createUser', userController.create) Criar um usuario
+* @api {post} router.post('/createUser',userController.create) Criar um usuario
 * @apiDescription cria um usuario para acessar os nossos serviços
 *
 * @apiExample Example body request:
